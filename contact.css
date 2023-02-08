@@ -1,0 +1,125 @@
+body{
+    background-image: url(images/back9.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    /* height: 521px; */
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+
+}
+
+h2{
+    text-transform: uppercase;
+    color: #f7497d;
+    margin-bottom: 35px;
+
+}
+input{
+    margin-bottom: 40px;
+}
+textarea{
+    height: 80px;
+    margin-bottom: 40px;
+}
+input , textarea{
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #797676;
+    font-size: 15px;
+}
+form div{
+    position: relative;
+}
+
+label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #797676;
+    pointer-events: none;
+    transition: 0.1s;
+
+
+}
+input[type=submit]{
+    background-color: #f7497d;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+
+.box input:focus ~ label,
+.box textarea:focus ~label,
+.box input:valid ~ label,
+.box textarea:valid ~label
+{
+    top: -12px;
+    color: #f7497d;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.box input:focus ,
+.box textarea:focus,
+.box input:valid ,
+.box textarea:valid{
+    border-bottom: 3px solid #f7497d;
+}
+
+.error{
+    position: absolute;
+    bottom:23px;
+    font-size: 15px;
+    color: #f7497d;
+    box-sizing: border-box;
+    position: ;
+    dis
+    
+ 
+}
+.hidden{
+    display: none;
+}
+.thank-you{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: lowercase;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(252, 252, 252, 0.7);
+    border: 2px solid #f7497d;
+    border-radius: 15px;
+    padding: 0 12px;
+    
+}
+.thank-you h2{
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    
+    
+}

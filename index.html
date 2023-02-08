@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Contact us</h2>
+        <form novalidate>
+
+            <div>
+                <input type="text" name="name" required="">
+                <div class="error hidden">Name is required</div>
+                <label>Name</label>
+            </div>
+            <div>
+                <input type="text" name="email" required="">
+                <div class="error hidden">Email is required</div>
+                <label>Email</label>
+            </div>
+            <div>
+                <input type="text" name="phone" required="">
+                <div class="error hidden">Phone number is required</div>
+                <label>Phone number</label>
+            </div>
+            <div>
+                <textarea required="" ></textarea>
+                <div class="error hidden">Message is required</div>
+                <label>Message</label>
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="thank-you hidden">
+        <h2>Thank you for submiting the form</h2>
+    </div>
+
+
+
+    <script src="contact.js"></script>
+</body>
+</html>
